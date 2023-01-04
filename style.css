@@ -6,6 +6,10 @@ body {
     width: 100%;
 }
 
+.titulo-principal {
+    padding-left: 20px;
+}
+
 .principal {
     background: #CCCCCC;
     padding: 30px;
@@ -14,6 +18,10 @@ body {
 h1 {
     text-align: left;
     background-color: rgb(40, 208, 214);
+}
+
+.titulo-centralizado {
+    text-align: center
 }
 
 p{
