@@ -24,15 +24,16 @@
         <main>
             <form>
                 <label for="nomesobrenome">Nome e Sobrenome: </label>
-                <input type="text" id="nomesobrenome" class="input-padrao">
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
                 
                 <label for="email">Email</label>
-                <input type="text" id="email" class="input-padrao">
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
                 <label for="fone">Telefone</label>
-                <input type="text" id="fone" class="input-padrao">
+                <input type="tel" id="fone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
-                <textarea name="" id="Mensagem" cols="70" rows="10" class="input-padrao">Mensagem</textarea>
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="Mensagem" class="input-padrao"></textarea>
                 
             <div>
                 <p>Como prefere o nosso contato?</p>
